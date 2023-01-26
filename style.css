@@ -1,0 +1,47 @@
+th,td{
+    text-align:center;
+  }
+  .card{
+    width:100%;
+    border-radius:8px;
+    border-color:#D09D05;
+    border-width:2px;margin-bottom:10px;padding: 1px 10px 10px 10px;
+    
+  }
+  table{
+    margin-top:20px;
+    width: 100%;
+
+  }
+  th,td{
+    text-align:center;
+  }
+  label.form-label{
+    /* background-color:red; */
+    /* margin-left:0; */
+    text-align:left;
+  
+  }
+  .form-label{
+    text-align:left;
+  }
+  button{
+    width: 60px;
+     margin:auto;
+  }
+.panel{
+background-color:#0d6efd;
+color:white;
+font-size:22px;
+text-align:center ;
+width:80%;margin:0 auto;
+min-height:40px;
+border-radius:8px;
+border-color:#D09D05;
+border-width:2px;
+margin-bottom:10px;
+padding: 1px 10px 10px 10px;
+  }
+  
+  
+  

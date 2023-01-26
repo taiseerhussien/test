@@ -1,0 +1,33 @@
+
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="pagination/table_pagin2">
+
+<link rel="stylesheet" href="pagination/table_pagin2">
+  <script src="pagination/jquery-3.5.1.min"></script>
+  <script src="pagination/table_pagin2"></script>
+  <script src="pagination/table_pagin4"></script>
+
+$('#myTable').dataTable( {
+
+    // "language" :{
+    //   "info": "MMMM _START_ to _END_ NNN _TOTAL_ KKKK",
+    //  }  ,
+
+    "oLanguage": {
+      // "aaSorting": [[ 10, "desc" ]],
+      // "bJQueryUI": true,
+      // "sLengthMenu": [["25", "50", "100", "250", "500", "-1"], ["25", "50", "100", "250", "500", "All"]],
+      "sLengthMenu": "عرض  _MENU_ سجلات",
+      "sSearch": "بحث: ",
+      "sZeroRecords" : "لا توجد بيانات لعرضها",
+      "sInfo" : "عدد السجلات  _TOTAL_ , المعروض ( من  _START_ إلى   _END_)",
+      "sInfoEmpty" : "", 
+    "oPaginate":{
+      'sShowing' : "عرض"  ,
+      'sNext' : "التالي" ,
+      'sPrevious' : 'السابق'  ,
+    }
+    
+    },
+
+});
